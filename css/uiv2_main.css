@@ -1,0 +1,93 @@
+@font-face{font-family:IRANSans;src:url(../fonts/IRANSans/IRANSansWeb.woff2)}@font-face{font-family:IRANSansBold;src:url(../fonts/IRANSans/IRANSansWeb_Bold.woff2)}@font-face{font-family:IRANSansLight;src:url(../fonts/IRANSans/IRANSansWeb_Light.woff2)}@font-face{font-family:"IRANFamilyFaNum";src:url(../fonts/IRANFamily/FaNumRegular.woff)}@font-face{font-family:"IRANFamilyFaNumBold";src:url(../fonts/IRANFamily/FaNumBold.woff)}:root{--dark-teal:#096489;--main-teal:#0092ab;--light-teal:#a9f2ff;--lighter-teal:#e8fcff;--ultra-light-teal:#f5f9f9;--gray:#878787;--light-gray:#bababa;--black:#363636;--light-green:#f9ffea;--main-green:#75950c;--yellow-alert:#f7ce46;--red-alert:#ff6060;--xs-size:.25rem;--sm-size:.5rem;--md-size:1rem;--lg-size:1.5rem;--xl-size:2.5rem;--fixed-bottom-menu-height:60px;--specialty-sidebar-width:215px;--timing-fn:cubic-bezier(.46,.03,.52,.96);--system-default-font:system-ui , -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Oxygen , Ubuntu , Cantarell , "Open Sans" , "Helvetica Neue" , sans-serif}*{margin:0;padding:0;box-sizing:border-box}.bg-test{background-color:#ffc0cb;border:1px solid purple}body{font-family:"IRANSans",sans-serif;overflow-x:hidden;color:var(--black)}button{font-family:inherit}button:disabled{cursor:default!important}a{text-decoration:none;color:inherit}input{font-family:inherit}img{max-width:100%;display:block}.topbar{background-color:#00748e;color:#fff;font-size:.8rem;padding:var(--sm-size) 0}.topbar-content{display:flex;align-items:center}.topbar-item{display:flex;align-items:center;gap:var(--sm-size);padding:0 var(--md-size);position:relative}.topbar-item:first-child{padding-right:0}.topbar-item::after{content:"";position:absolute;width:1px;height:60%;left:0;top:50%;transform:translateY(-50%);background-color:#0f9daf}.topbar-item:last-child::after{display:none}.header{background-color:var(--main-teal);position:relative}.header-content{min-height:67px;display:flex;align-items:center}#nobat-logo img{width:135px}.header a[data-role="login-link"]{color:var(--light-teal);margin-right:auto}.search-form{height:60px;color:var(--gray);display:flex;gap:var(--sm-size);align-items:center}.search-form button{color:inherit;background-color:#efefef}.search-input{display:block;flex:1;padding:.6rem var(--md-size);background-color:#eee;border:none;font-size:16px;border-radius:var(--sm-size);color:#333}.search-input:focus{outline:2px solid #ddd}.search-input::placeholder{color:#999}.selectWrapper{padding:var(--sm-size) 0;display:flex;gap:var(--md-size)}.selectWrapper:first-of-type{margin-top:var(--sm-size)}.selectWrapper>div{flex:1;display:flex;justify-content:space-between;align-items:center;box-shadow:0 0 2px rgba(0,0,0,.25);padding:var(--sm-size) var(--md-size);color:var(--black);border-radius:var(--sm-size);font-size:.9rem;cursor:pointer}.selectWrapper>div>*{pointer-events:none}.selectWrapper-form-container[data-screen="desktop"]{border-bottom:2px solid #f2f2f2}.selectWrapper-form-container[data-screen="desktop"]>.container{display:flex;align-items:center;gap:var(--md-size)}.selectWrapper-form-container[data-screen="desktop"] .selectWrapper{margin-top:0}.selectWrapper-form-container[data-screen="desktop"] .search-form{flex:unset;justify-content:flex-end;gap:var(--md-size)}.selectWrapper-form-container[data-screen="desktop"] .search-input{width:300px}.selectWrapper-form-container[data-screen="desktop"] .selectWrapper-items{flex:1}.selectWrapper-form-container[data-screen="desktop"] .selectWrapper>div{flex:unset;width:max-content;min-width:150px;justify-content:center}.selectWrapper-form-container[data-screen="desktop"] .btn.btn-circle-icon{background-color:#f2f2f2!important}main,section{display:flex;gap:var(--md-size);margin-top:var(--md-size)}aside{width:var(--specialty-sidebar-width)}section .section-content{flex:1;max-width:100%}.doctors{flex:1;max-width:100%}.related-specialties{padding:var(--sm-size);padding-right:var(--xl-size);list-style:none;font-size:.85rem;color:#777}.related-specialties li{padding:var(--xs-size);padding-right:var(--lg-size);line-height:1.75;font-size:.75rem;cursor:pointer;position:relative}.related-specialties li::before{content:"";position:absolute;width:6px;height:6px;background-color:#fff;box-shadow:0 0 2px rgba(0,0,0,.75);border-radius:50%;right:0;top:13px}aside[data-role="specialty-list"] .related-specialties{padding-right:var(--md-size)}.panel-wrapper[data-role="specialty-list-panel"] .related-specialties{display:none}.footer{padding:var(--lg-size) 0}.footer-content{display:grid;grid-template-columns:1fr;gap:var(--md-size)}.footer .btn{display:flex;align-items:center;justify-content:center;gap:var(--sm-size);padding:var(--sm-size)}.footer-lightblue{background-color:#e5f9ff;margin-top:var(--md-size)}.footer-lightblue .btn{background-color:#fff;color:#598a98;box-shadow:0 0 2px #598a98}.footer-teal{background-color:#3ab1d4}.footer-teal .btn{background-color:transparent;color:#fff;box-shadow:0 0 2px #fff}.doctor-ui{display:block;padding-top:var(--sm-size)}.doctor-ui-info{display:flex;gap:var(--md-size)}.doctor-ui-profile{background-color:#eee;width:75px;height:100px;position:relative;z-index:1;box-shadow:0 0 2px rgba(0,0,0,.25);margin-right:auto}.doctor-ui-profile img{width:100%;height:100%;position:absolute;display:block;object-fit:cover}.doctor-ui-details{width:calc(100% - 100px);padding-bottom:var(--sm-size);display:flex;flex-direction:column}.doctor-ui-name{color:var(--black);font-size:1.1rem;font-family:"IRANSansBold";display:flex;align-items:center;width:100%}.doctor-ui-name img{width:20px;margin-right:var(--xs-size)}.doctor-ui-name span{max-width:calc(100% - 20px)}.doctor-ui-specialty{display:inline-block;max-width:fit-content;padding:var(--xs-size) var(--sm-size);font-size:.85rem;background-color:var(--ultra-light-teal);color:var(--dark-teal);margin-top:var(--sm-size);white-space:nowrap}.doctor-ui-status{font-size:.75rem;color:var(--light-gray);position:relative;width:fit-content;margin-top:1.15rem}.doctor-ui-status::after{content:"ŲŖŁ„ŁŁ†Ū";position:absolute;top:0;right:100%;margin-right:var(--sm-size);padding:.1rem var(--sm-size);font-size:.725rem;border-radius:5px;color:var(--gray);background-color:transparent}.doctor-ui-status.online__has-schedule::after{content:"Ų§ŪŁ†ŲŖŲ±Ł†ŲŖŪ";background-color:var(--light-green);color:var(--main-green)}.doctor-ui-status.online__no-schedule::after{content:"Ų§ŪŁ†ŲŖŲ±Ł†ŲŖŪ"}.doctor-ui-status .fa-credit-card{position:absolute;right:120px;top:4px;color:var(--light-gray);font-size:.85rem}.doctor-ui-footer{color:var(--gray);font-size:.85rem;padding:var(--sm-size) 0}.doctor-ui-footer>div{display:flex;align-items:center;justify-content:space-between;padding-bottom:var(--sm-size)}.doctor-ui .doctor-ui-footer>div{border-bottom:1px solid #ececec}.doctor-ui-rating{display:flex;align-items:center;gap:var(--sm-size)}.doctor-ui-address{flex:1;padding-left:var(--md-size)}.panel-wrapper{position:fixed;height:100vh;width:100%;top:0;left:0;background-color:rgba(0,0,0,.2);z-index:10000;opacity:0;pointer-events:none;transition:opacity 200ms var(--timing-fn)}.panel-content{position:absolute;bottom:0;left:0;width:100%;height:80vh;overflow:auto;padding:2rem var(--md-size) var(--md-size);background-color:#fff;border-radius:var(--lg-size) var(--lg-size) 0 0;transform:translateY(105%);transition:transform 300ms var(--timing-fn)}.panel-wrapper.visible{opacity:1;pointer-events:all}.panel-wrapper.visible .panel-content{transform:translateY(0)}.panel-content::before{content:"";position:absolute;top:20px;width:50px;left:50%;transform:translateX(-50%);height:3px;background-color:#ccc;border-radius:40px}.search-input-container{display:flex;margin-top:var(--sm-size)}.category-list{list-style:none;height:100%;overflow-y:scroll}.category-item{font-size:.85rem;text-align:center;color:var(--black);cursor:pointer;border-bottom:1px solid #eee}.category-item a{padding:var(--md-size) var(--sm-size);display:block}aside[data-role="specialty-list"] .category-list{}aside[data-role="specialty-list"] .category-item{border-bottom:0;text-align:left;padding-right:var(--md-size);position:relative}aside[data-role="specialty-list"] .category-item::before{position:absolute;width:6px;height:6px;background-color:#ccc;border-radius:50%;right:0;top:16px}aside[data-role="specialty-list"] .category-item a{padding:var(--sm-size) 0}aside[data-role="specialty-list"] .category-item a:hover{font-weight:bold}.stars{height:16px;width: calc(5 * 16px);background-image:url(./images/uiv2/gray-star-16.png);background-repeat:repeat-x;position:relative;direction:ltr}.stars-value{position:absolute;height:100%;width:100%;background-image:url(./images/uiv2/gold-star-16.png)}button.back-to-top{position:fixed;bottom:var(--md-size);right:var(--md-size);width:3.25rem;height:3.25rem;font-size:1.25rem;background-color:rgba(0,0,0,.15)!important;color:#fff;opacity:0;z-index:1000;transition:opacity 100ms var(--timing-fn)}button.back-to-top.show{opacity:1}#pixel-to-watch{position:absolute;top:2400px;left:0;width:1;height:1px}.pagination{margin-top:var(--md-size);padding:var(--sm-size) 0 var(--md-size)}.pagination>div{background-color:#fff;display:flex;padding:var(--sm-size) 0;justify-content:center;gap:var(--sm-size);overflow-x:scroll}.pagination-item{display:inline-block;font-family:"IRANFamilyFaNum"}.pagination-item>*{display:flex;align-items:center;justify-content:center;background-color:#fff;box-shadow:0 0 2px rgba(0,0,0,.25);color:var(--black);width:2rem;height:2rem;font-size:.85rem;border-radius:50%}.pagination-item__ellipsis>*{box-shadow:none;font-size:1.25rem;padding-bottom:var(--sm-size)}.pagination-item__current>*{background-color:var(--main-teal);color:var(--light-teal);box-shadow:none;pointer-events:none}.fixed-menu{position:fixed;width:100%;bottom:0;left:0;z-index:1000;height:var(--fixed-bottom-menu-height);background-color:#cfcfcf;color:#fff;display:flex;justify-content:space-between;padding:0 var(--md-size);gap:var(--sm-size);border-radius:var(--sm-size) var(--sm-size) 0 0}.fixed-menu>div{position:relative;flex:1;display:flex;flex-direction:column;padding:var(--sm-size) 0;align-items:center;justify-content:space-between}.fixed-menu>div button{border:none;background-color:transparent;color:inherit;font-weight:bold;font-size:.8rem}.fixed-menu>div .fa{color:inherit;font-size:1.15rem}[data-screen="mobile"]{display:block}[data-screen="desktop"]{display:none}@media screen and (width > 768px) {
+  .header-content {
+    min-height: 100px;
+  }
+
+  .header a[data-role="login-link"] {
+    padding-left: calc(2 * var(--lg-size));
+    padding-right: calc(2 * var(--lg-size));
+  }
+
+  .selectWrapper .fa {
+    display: none;
+  }
+
+  main {
+    margin-top: var(--xl-size);
+  }
+
+  .doctors-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: var(--md-size);
+    row-gap: var(--md-size);
+  }
+
+  .doctor-ui {
+    border: 1px solid #ececec;
+    border-radius: var(--xs-size);
+    padding: var(--md-size) var(--md-size) var(--sm-size);
+  }
+
+  .doctor-ui-profile {
+    margin-right: auto;
+  }
+
+  .doctor-ui-footer > div {
+    padding-bottom: 0;
+    border: none !important;
+  }
+
+  .panel-content {
+    height: 100%;
+    width: min(400px, 75%);
+    border-radius: 0;
+    right: 0;
+    left: unset;
+    transform: translateX(105%);
+  }
+
+  .panel-wrapper.visible .panel-content {
+    transform: translateX(0);
+  }
+
+  .panel-content::before {
+    display: none;
+  }
+
+  .footer-lightblue {
+    margin-top: var(--xl-size);
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 5rem;
+  }
+
+  .footer .btn[data-role="doctor-panel-link"],
+  .footer .btn[data-role="doctor-red-link"] {
+    background-color: #3ab1d4;
+    position: fixed;
+    bottom: var(--lg-size);
+    left: var(--md-size);
+
+    width: 150px;
+  }
+
+  .footer .btn[data-role="doctor-panel-link"] {
+    transform: translateY(calc(-100% - var(--md-size)));
+  }
+
+  .fixed-menu {
+    display: none;
+  }
+
+  [data-screen="mobile"] {
+    display: none;
+  }
+
+  [data-screen="desktop"] {
+    display: block;
+  }
+}

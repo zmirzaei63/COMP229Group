@@ -1,0 +1,9 @@
+.footer-logos{display:flex;justify-content:flex-end;gap:var(--md-size);height:120px;margin-top:var(--xl-size)}.enamad,.ecunion,.nsr{flex:1;padding:var(--xs-size);box-shadow:0 0 2px #fff;border-radius:var(--sm-size);background-color:#fff}.footer-logos img{width:100%;height:100%;object-fit:contain}@media screen and (width > 768px) {
+  .enamad,
+  .ecunion,
+  .nsr {
+    height: 100%;
+    flex: unset;
+    padding: var(--md-size);
+  }
+}
